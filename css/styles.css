@@ -14,7 +14,7 @@
 	text-align: center;
 	border-color: white;
 	width: 100%;
-	float: left;
+	flex: 1 1 auto;
 }
 .nav-bar li
 {
