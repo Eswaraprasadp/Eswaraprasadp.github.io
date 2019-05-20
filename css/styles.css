@@ -13,7 +13,7 @@
 	height: 60px;
 	text-align: center;
 	border-color: white;
-	display: inline-block;
+	float: left;
 }
 .nav-bar li
 {
