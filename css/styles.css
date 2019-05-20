@@ -77,6 +77,8 @@ figure img{
     align-content: center;
     display: block;
     margin: 0 auto;
+    width: 20%;
+    height: 20%;
 }
 figure figcaption{
 	text-align: center;
