@@ -14,20 +14,18 @@
 	text-align: center;
 	border-color: white;
 	width: 100%;
-	flex: 1 1 auto;
+	display: flex;
 }
 .nav-bar li
 {
-	display: inline;
-
+	flex: 1 1 auto;
 
 }
 .nav-bar li a
 {
-    display: inline-block;
+    flex: 1 1 auto;
+    display: block;
 	color: white;
-	padding-left: 3%;
-	padding-right: 3%;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-decoration: none;
