@@ -4,6 +4,7 @@
 	background-color: black;
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	height: 60px;
 	text-align: center;
 	border-color: white;
@@ -11,6 +12,7 @@
 .nav-bar li
 {
 	display: inline;
+	width: 100%;
 }
 .nav-bar li a
 {
