@@ -60,7 +60,7 @@ p{
 	font-family: "Trebuchet MS", "lucida console", "courier new";
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-	font-size: 1.2em;
+	font-size: 1.8vw;
 
 }
 h2{
@@ -71,7 +71,8 @@ h2{
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	letter-spacing: 0.2px;
 	text-align: center;
-	color: rgba(10, 10, 255, 0.6)
+	font-size: 2.3vw;
+	color: rgba(10, 10, 255, 0.6);
 }
 figure img{
     align-content: center;
@@ -83,5 +84,5 @@ figure img{
 figure figcaption{
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-	font-size: 1vw;
+	font-size: 1.2vw;
 }
