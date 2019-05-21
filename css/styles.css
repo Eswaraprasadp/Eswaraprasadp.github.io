@@ -29,12 +29,14 @@
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-decoration: none;
-	text-shadow: -1px -1px 1px rgba(200, 200, 200, 0.7);
+	text-shadow: -1px -1px 1px rgba(200, 200, 200, 1);
 	font-size: 2vw;
 
 }
 .nav-bar li a:hover{
-	background-color: #333;
+	background-color: rgba(255, 255, 255, 0.92);
+	color: #000;
+	text-shadow: -1px -1px -1px rgba(10, 10, 10, 0.7)
 }
 body
 {
