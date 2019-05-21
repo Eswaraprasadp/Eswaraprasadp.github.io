@@ -29,8 +29,8 @@
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-decoration: none;
-	font-size: 150%;
-	text-shadow: -1px -1px 1px rgba(200, 200, 200, 0.7)
+	text-shadow: -1px -1px 1px rgba(200, 200, 200, 0.7);
+	font-size: 2vw;
 
 }
 .nav-bar li a:hover{
@@ -83,4 +83,5 @@ figure img{
 figure figcaption{
 	text-align: center;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font-size: 1vw;
 }
