@@ -27,6 +27,7 @@ function load(){
 	if(localStorage.getItem('firstTime') == null){
 		// scoreHistory = [[1, "GOD", Infinity], [2, "wr", 56],[3,"rq",55],[4,"sw",23],[5,"gg",22],[6,"as",21],[8,"es",13],[10,"eswar",8]]
 		// console.log("Saved scoreHistory was : " + JSON.stringify(scoreHistory));
+		scoreHistory = [[1, 'GOD', Infinity]];
 		let newScoreHistory = [], seenFlags = [], size = scoreHistory.length, counter = 1;
 		while(size--)
 			seenFlags.push(false);
