@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Duet</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>	
+	<link rel="stylesheet"
+   href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel= "shortcut icon" type="image/jpg" href="res/duet 2.png">
+</head>
+<body onload="load()">
+	<div class="container">
+		<div class="col-1">
+			<div class="result-card">
+				<div class="score-div"><span id="score-text">Score: 0</span></div>
+				<div class="meter-div"><span>Affection meter: </span><meter id="affection-meter" min = "0" max="100"></meter></div>
+			</div>
+			<div class="canvas-card">
+				<canvas id="canvas" width="300" height="500">
+					<span>Your browser does not support canvas.</span>
+				</canvas> 
+			</div>
+			<div class="controls-card">
+				<input type="image" onclick="pause()" id="pause-button" class="customControl" src="res/pause.png">
+					<!-- <span>Pause</span> -->
+				</input>
+				<input type="image" onclick="resume()" id="resume-button" class="customControl" disabled src="res/unpause.png">
+				</input>
+				<input type="image" onclick="buttonRestart()" id="restart-button" class="customControl" src="res/restart.png">
+				</input>
+			</div>
+		</div>
+		<div class="col-2">
+			<div class="details-card">
+				<div class="customRadio">
+					<button type="button" class="customButton" id="single-button" onclick="toggleButton(1)"><span>Single Player</span></button>
+					<button type="button" class="customButton" id="multi-button" onclick="toggleButton(2)"><span>Multi Player</span></button>
+				</div>
+				<div class="name-form">
+					<div class="input" style="display: block;" id="single-player-div">
+						<span>Name: </span><input type="text" name="Name" class="form-control-text" id="name">
+					</div>
+					<div class="input" style="display: none;" id="multi-player-div">
+						<span>Player A: </span><input type="text" name="Player-A" class="form-control-text" id="player-A-name">
+						<br>
+						<span>Player B: </span><input type="text" name="Player-B" class="form-control-text" id="player-B-name">
+					</div>
+				</div>
+				<div class="submit-div">
+					<button type="button" id="submit" class="customButton" onclick="submit()"><span>Submit</span></button>
+				</div>
+			</div>
+		<br>
+			<div class="score-card" id="scoreboard-div">
+				<table id="scoreboard" class="scoreboard">
+					<tr>
+						<th>Rank</th>
+						<th>Name</th>
+						<th>Score</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>noobmaster69</td>
+						<td>Infinity</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="application/javascript" src="duet.js"></script>
+</body>
+</html>
