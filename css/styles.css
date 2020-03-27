@@ -40,8 +40,9 @@
 }
 body
 {
-	background-color: rgba(50, 115, 220, 0.3);
-	background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.3), rgba(10, 10, 10, 0.3) );
+	/*background-color: rgba(50, 115, 220, 0.3);*/
+	background-color: rgb(20, 20, 20);
+	/*background-image: linear-gradient(to bottom, rgba(240, 240, 240, 0.3), rgba(10, 10, 10, 0.3) );*/
 	text-align: center;
 }
 h1{
@@ -53,6 +54,7 @@ h1{
 	box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -2px -2px 5px rgba(255, 255, 255, 0.5);
 	text-shadow: 1px 1px 1px black;
 	text-align: center;
+	color: white;
 /*	animation: glow 4s ease-in-out 0s 2;*/
 }
 p{
@@ -69,12 +71,12 @@ h2{
 	padding-left: 1em;
 	padding-right: 1em;
 	font-family: fantasy, verdana, "georgia";
-	font-weight: 300;
+	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 	letter-spacing: 0.2px;
 	text-align: center;
 	font-size: 2.3vw;
-	color: rgba(10, 10, 255, 0.6);
+	color: rgba(100, 100, 255, 1);
 }
 figure img{
     align-content: center;
@@ -178,12 +180,12 @@ h2{
 	padding-left: 1em;
 	padding-right: 1em;
 	font-family: fantasy, verdana, "georgia";
-	font-weight: 300;
+	font-weight: bold;
 	text-shadow: -1px 1px 0.5px rgba(0, 0, 0, 0.3);
 	letter-spacing: 0.2px;
 	text-align: center;
 	font-size: 4vw;
-	color: rgba(10, 10, 255, 0.6);
+	color: rgba(100, 100, 255, 1);
 }
 figure img{
     align-content: center;
